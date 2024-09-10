@@ -1,0 +1,13 @@
+{
+	"type": "module",
+	"exports": {
+		"./jsx-runtime": {
+			"types": "./types/jsx.d.ts",
+			"default": "./jsx-runtime.js"
+		},
+		"./jsx-dev-runtime": {
+			"types": "./types/jsx.d.ts",
+			"default": "./jsx-runtime.js"
+		}
+	}
+}

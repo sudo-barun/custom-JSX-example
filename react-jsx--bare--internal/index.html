@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Custom JSX - Using "jsx": "react-jsx"</title>
+
+<style>
+body {
+	font-family: system-ui, sans-serif;
+}
+#app-container {
+	max-width: 800px;
+	margin-inline: auto;
+	border: 2px solid;
+	padding: 0 16px 16px;
+}
+.Foo {
+	border: 2px dashed;
+	padding: 16px;
+}
+.Bar {
+	border: 2px dashed;
+	padding: 16px;
+}
+</style>
+
+</head>
+<body>
+
+<div id="app-container"></div>
+
+<script type="importmap">
+{
+	"imports": {
+		"custom-jsx/jsx-runtime": "./packages/custom-jsx/jsx-runtime.js"
+	}
+}
+</script>
+
+<script src="App.js" type="module"></script>
+
+</body>
+</html>
